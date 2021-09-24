@@ -1,5 +1,5 @@
 require 'hutch/logging'
-require 'hutch/lib/base'
+require 'hutch/acknowledgements/base'
 
 module Hutch
   module Acknowledgements
