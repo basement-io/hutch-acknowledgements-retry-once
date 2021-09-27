@@ -14,7 +14,7 @@ module Hutch
 
         return false if delivery_info.redelivered?
 
-        logger.debug "[Retry] Requeuing message #{properties.message_id}"
+        logger.debug "[Retry] Requeueing message #{properties.message_id}"
 
         sleep @sleep_interval
 
